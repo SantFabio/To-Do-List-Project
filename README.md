@@ -25,11 +25,11 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issue
 
 ## Licença
 
-Este projeto está licenciado sob a [![Licença MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/SantFabio/To-Do-List-Project/blob/main/LICENSE). Consulte o arquivo [LICENSE](https://github.com/SantFabio/To-Do-List-Project/blob/main/LICENSE) para obter mais detalhes.
+(https://img.shields.io/badge/license-MIT-blue)](https://github.com/SantFabio/To-Do-List-Project/blob/main/LICENSE) Este projeto está licenciado sob a [![Licença MIT]. Consulte o arquivo [LICENSE](https://github.com/SantFabio/To-Do-List-Project/blob/main/LICENSE) para obter mais detalhes.
 
 
 ---
 
 **Desenvolvido por SantFabio**
 
-[Link para o seu perfil no GitHub](https://github.com/SantFabio)
+[perfil no GitHub](https://github.com/SantFabio)
