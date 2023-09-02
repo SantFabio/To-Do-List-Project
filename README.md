@@ -4,7 +4,7 @@ Um To-Do List simples e eficaz, permitindo adicionar, remover e rastrear tarefas
 
 Um simples aplicativo de lista de tarefas para ajudar você a organizar seu dia.
 
-![Screenshot](screenshot.png)
+![Screenshot](https://github.com/SantFabio/To-Do-List-Project/blob/master/img/To-do-list.png)
 
 ## Funcionalidades
 
