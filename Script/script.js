@@ -14,6 +14,9 @@ function populateTaskList() {
             list_element.innerHTML += "<li class='fade-in'><span class='title-list'>" + title_value + "</span> <span id='title2'>" + place_value + "</span> <img onclick='rmv(this)' class='trash-2' src='/img/icons8-trash-24.png' alt='trash'>";
         }
     }
+        let task_count_element = document.getElementsByClassName("task-count")[0];
+        let length_of_tasks = task_list.length;
+        task_count_element.innerHTML = "<span class='task-count'>(" + length_of_tasks + ")</span>";
 }
 
 function clearTasks() {
@@ -41,10 +44,13 @@ function rmv(element) {
         task_list.splice(indexToRemove, 1);
         localStorage.setItem("tasks", JSON.stringify(task_list));
     }
+        let task_count_element = document.getElementsByClassName("task-count")[0];
+        let length_of_tasks = task_list.length;
+        task_count_element.innerHTML = "<span class='task-count'>(" + length_of_tasks + ")</span>";
 }
 
 
-  
+
 function addTask() {
     let title_value = document.getElementById("title").value;
     let place_value = document.getElementById("place").value;
@@ -55,7 +61,7 @@ function addTask() {
     let list_element = document.getElementById("list");
     list_element.innerHTML += "<li class='fade-in'><span class='title-list'>" + title_value + "</span> <span id='title2'>" + place_value + "</span> <img onclick='rmv(this)' class='trash-2' src='/img/icons8-trash-24.png' alt='trash'></li>";
 
-      
+
 }
 onload = populateTaskList;
 

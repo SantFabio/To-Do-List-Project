@@ -29,12 +29,13 @@
         left: 20.9rem;
         bottom: 4.0rem;
         font-weight: bold;
-        
+        cursor: pointer;
     }
     .trash-2{
         position: absolute;
         left: 23.8rem;
         transform: translateY(-120%);
+        cursor: pointer;
     }
     .task-counter {
         margin-bottom: 2.0rem;
@@ -61,6 +62,7 @@
         height: 3.0rem;
         border: 0.2rem solid #1c1d2214;
         border-radius: 0.5rem;
+        cursor: pointer;
     }
 
     .title-list {
